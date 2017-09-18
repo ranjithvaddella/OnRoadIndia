@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A621549A1DBA06F7004E9A4C /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = A62154971DBA06F7004E9A4C /* Info.png */; };
+		A621549B1DBA06F7004E9A4C /* Brake Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = A62154981DBA06F7004E9A4C /* Brake Warning.png */; };
+		A621549E1DBA079C004E9A4C /* 100 Percents 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A621549D1DBA079C004E9A4C /* 100 Percents 2.png */; };
+		A62154A11DBA082F004E9A4C /* Info 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A621549F1DBA082F004E9A4C /* Info 2.png */; };
+		A62154A21DBA082F004E9A4C /* Brake Warning 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A62154A01DBA082F004E9A4C /* Brake Warning 2.png */; };
+		A6348D2E1DB5734B00F57904 /* Width limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6348D2D1DB5734B00F57904 /* Width limit.jpg */; };
+		A6348D301DB5741900F57904 /* One way signs-vehicles prohibited in one direction1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6348D2F1DB5741900F57904 /* One way signs-vehicles prohibited in one direction1.jpg */; };
+		A6348D321DB5D19000F57904 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6348D311DB5D19000F57904 /* Info.swift */; };
+		A6348D361DB5E31000F57904 /* Mandatory.png in Resources */ = {isa = PBXBuildFile; fileRef = A6348D331DB5E31000F57904 /* Mandatory.png */; };
+		A6348D371DB5E31000F57904 /* Informatory.png in Resources */ = {isa = PBXBuildFile; fileRef = A6348D341DB5E31000F57904 /* Informatory.png */; };
+		A6348D381DB5E31000F57904 /* Cautionary.png in Resources */ = {isa = PBXBuildFile; fileRef = A6348D351DB5E31000F57904 /* Cautionary.png */; };
+		A6348D3A1DB604BB00F57904 /* Mand1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6348D391DB604BA00F57904 /* Mand1.png */; };
+		A6865A531DB7416D002D7AF6 /* Mandatory1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6865A521DB7416D002D7AF6 /* Mandatory1.png */; };
+		A6865A551DB75528002D7AF6 /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6865A541DB75528002D7AF6 /* 100.png */; };
+		A68BE3D31DAEBD72004E0826 /* DetailTrafficFineTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68BE3D21DAEBD72004E0826 /* DetailTrafficFineTVC.swift */; };
+		A6A6C8F81DA8C674005103B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6C8F71DA8C674005103B5 /* AppDelegate.swift */; };
+		A6A6C8FA1DA8C674005103B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6C8F91DA8C674005103B5 /* ViewController.swift */; };
+		A6A6C8FD1DA8C674005103B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A6C8FB1DA8C674005103B5 /* Main.storyboard */; };
+		A6A6C8FF1DA8C674005103B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A6C8FE1DA8C674005103B5 /* Assets.xcassets */; };
+		A6A6C9021DA8C674005103B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A6C9001DA8C674005103B5 /* LaunchScreen.storyboard */; };
+		A6C7DDF41DB623D700289F25 /* One way signs-vehicles prohibited in one direction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDF31DB623D700289F25 /* One way signs-vehicles prohibited in one direction.jpg */; };
+		A6C7DDF61DB6240800289F25 /* Straight Prohibited or no entry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDF51DB6240800289F25 /* Straight Prohibited or no entry.jpg */; };
+		A6C7DDF81DB629AC00289F25 /* Vehicles prohibited in both direction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDF71DB629AC00289F25 /* Vehicles prohibited in both direction.jpg */; };
+		A6C7DDFA1DB62A0900289F25 /* Right turn prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDF91DB62A0900289F25 /* Right turn prohibited.jpg */; };
+		A6C7DDFC1DB62A2B00289F25 /* Left turn prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDFB1DB62A2B00289F25 /* Left turn prohibited.jpg */; };
+		A6C7DDFE1DB62A4700289F25 /* Overtaking prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDFD1DB62A4700289F25 /* Overtaking prohibited.jpg */; };
+		A6C7DE001DB62A6200289F25 /* Pedestrians prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DDFF1DB62A6200289F25 /* Pedestrians prohibited.jpg */; };
+		A6C7DE021DB62A8700289F25 /* Axle load limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE011DB62A8700289F25 /* Axle load limit.jpg */; };
+		A6C7DE041DB62ACC00289F25 /* All vehicles prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE031DB62ACC00289F25 /* All vehicles prohibited.jpg */; };
+		A6C7DE061DB62AF700289F25 /* All vehicles prohibited2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE051DB62AF700289F25 /* All vehicles prohibited2.jpg */; };
+		A6C7DE081DB62B1C00289F25 /* Height limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE071DB62B1C00289F25 /* Height limit.jpg */; };
+		A6C7DE0A1DB62B4300289F25 /* Load limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE091DB62B4300289F25 /* Load limit.jpg */; };
+		A6C7DE0C1DB62B7E00289F25 /* Horns prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE0B1DB62B7E00289F25 /* Horns prohibited.jpg */; };
+		A6C7DE0E1DB62BDE00289F25 /* giveway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE0D1DB62BDE00289F25 /* giveway.jpg */; };
+		A6C7DE101DB62BFA00289F25 /* Length limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE0F1DB62BFA00289F25 /* Length limit.jpg */; };
+		A6C7DE121DB62C1A00289F25 /* Speed limit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE111DB62C1A00289F25 /* Speed limit.jpg */; };
+		A6C7DE141DB62CAF00289F25 /* Restriction ends sign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE131DB62CAF00289F25 /* Restriction ends sign.jpg */; };
+		A6C7DE161DB62D0100289F25 /* Trucks prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE151DB62D0100289F25 /* Trucks prohibited.jpg */; };
+		A6C7DE181DB62D2100289F25 /* Compulsory ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE171DB62D2100289F25 /* Compulsory ahead.jpg */; };
+		A6C7DE1A1DB62D4100289F25 /* Compulsory ahead or turn right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE191DB62D4100289F25 /* Compulsory ahead or turn right.jpg */; };
+		A6C7DE1C1DB62D6F00289F25 /* Compulsory ahead or turn left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE1B1DB62D6F00289F25 /* Compulsory ahead or turn left.jpg */; };
+		A6C7DE1E1DB62D8E00289F25 /* Compulsory cycle track.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE1D1DB62D8E00289F25 /* Compulsory cycle track.jpg */; };
+		A6C7DE201DB62DAB00289F25 /* Compulsory turn right ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE1F1DB62DAB00289F25 /* Compulsory turn right ahead.jpg */; };
+		A6C7DE221DB62DD300289F25 /* Compulsory turn left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE211DB62DD300289F25 /* Compulsory turn left.jpg */; };
+		A6C7DE241DB62DEF00289F25 /* Compulsory keep left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE231DB62DEF00289F25 /* Compulsory keep left.jpg */; };
+		A6C7DE261DB62E1E00289F25 /* Compulsory sound horn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE251DB62E1E00289F25 /* Compulsory sound horn.jpg */; };
+		A6C7DE281DB66B5E00289F25 /* T-Intersection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE271DB66B5E00289F25 /* T-Intersection.jpg */; };
+		A6C7DE2C1DB66BB100289F25 /* Y-Intersection3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE291DB66BB100289F25 /* Y-Intersection3.jpg */; };
+		A6C7DE2D1DB66BB100289F25 /* Y-Intersection2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE2A1DB66BB100289F25 /* Y-Intersection2.jpg */; };
+		A6C7DE2E1DB66BB100289F25 /* Y-Intersection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE2B1DB66BB100289F25 /* Y-Intersection.jpg */; };
+		A6C7DE301DB66C0F00289F25 /* Right hand curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE2F1DB66C0F00289F25 /* Right hand curve.jpg */; };
+		A6C7DE321DB66C7000289F25 /* Left hand curve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE311DB66C7000289F25 /* Left hand curve.jpg */; };
+		A6C7DE341DB66C9000289F25 /* Left reverse bend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE331DB66C9000289F25 /* Left reverse bend.jpg */; };
+		A6C7DE361DB66CB800289F25 /* Right reverse bend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE351DB66CB800289F25 /* Right reverse bend.jpg */; };
+		A6C7DE381DB66CD400289F25 /* Narrow Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE371DB66CD400289F25 /* Narrow Bridge.jpg */; };
+		A6C7DE3A1DB66D1900289F25 /* Road wideness ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE391DB66D1900289F25 /* Road wideness ahead.jpg */; };
+		A6C7DE3C1DB66D3800289F25 /* Narrow road ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE3B1DB66D3800289F25 /* Narrow road ahead.jpg */; };
+		A6C7DE3E1DB66D5B00289F25 /* Cross Road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE3D1DB66D5B00289F25 /* Cross Road.jpg */; };
+		A6C7DE401DB66D8E00289F25 /* Pedestrian Crossing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE3F1DB66D8E00289F25 /* Pedestrian Crossing.jpg */; };
+		A6C7DE421DB66DB900289F25 /* School Ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE411DB66DB900289F25 /* School Ahead.jpg */; };
+		A6C7DE441DB66DE000289F25 /* Steep ascent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE431DB66DE000289F25 /* Steep ascent.jpg */; };
+		A6C7DE461DB66E0200289F25 /* Steep descent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE451DB66E0200289F25 /* Steep descent.jpg */; };
+		A6C7DE481DB66E2C00289F25 /* Hump or rough road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE471DB66E2C00289F25 /* Hump or rough road.jpg */; };
+		A6C7DE4A1DB66E6B00289F25 /* Dangerous dip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE491DB66E6B00289F25 /* Dangerous dip.jpg */; };
+		A6C7DE4C1DB66E8C00289F25 /* Gap in Median.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE4B1DB66E8C00289F25 /* Gap in Median.jpg */; };
+		A6C7DE4E1DB66EC500289F25 /* Falling Rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE4D1DB66EC500289F25 /* Falling Rocks.jpg */; };
+		A6C7DE531DB66FD700289F25 /* 200 meters1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE4F1DB66FD700289F25 /* 200 meters1.jpg */; };
+		A6C7DE541DB66FD700289F25 /* 200 meters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE501DB66FD700289F25 /* 200 meters.jpg */; };
+		A6C7DE551DB66FD700289F25 /* 50-100 meters1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE511DB66FD700289F25 /* 50-100 meters1.jpg */; };
+		A6C7DE561DB66FD700289F25 /* 50-100 meters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE521DB66FD700289F25 /* 50-100 meters.jpg */; };
+		A6C7DE581DB6700800289F25 /* Cattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE571DB6700800289F25 /* Cattle.jpg */; };
+		A6C7DE5B1DB6702100289F25 /* Ferry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE591DB6702000289F25 /* Ferry.jpg */; };
+		A6C7DE5C1DB6702100289F25 /* Cycle Crossing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE5A1DB6702100289F25 /* Cycle Crossing.jpg */; };
+		A6C7DE5E1DB6702F00289F25 /* Left hair pin bend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE5D1DB6702F00289F25 /* Left hair pin bend.jpg */; };
+		A6C7DE631DB6723700289F25 /* Men at Work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE5F1DB6723700289F25 /* Men at Work.jpg */; };
+		A6C7DE641DB6723700289F25 /* Major road ahead2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE601DB6723700289F25 /* Major road ahead2.jpg */; };
+		A6C7DE651DB6723700289F25 /* Major road ahead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE611DB6723700289F25 /* Major road ahead.jpg */; };
+		A6C7DE661DB6723700289F25 /* Loose Gravel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE621DB6723700289F25 /* Loose Gravel.jpg */; };
+		A6C7DE681DB6727200289F25 /* Right hair pin bend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE671DB6727200289F25 /* Right hair pin bend.jpg */; };
+		A6C7DE6F1DB6729300289F25 /* Staggered Intersection2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE691DB6729300289F25 /* Staggered Intersection2.jpg */; };
+		A6C7DE701DB6729300289F25 /* Staggered Intersection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE6A1DB6729300289F25 /* Staggered Intersection.jpg */; };
+		A6C7DE711DB6729300289F25 /* Slippery Road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE6B1DB6729300289F25 /* Slippery Road.jpg */; };
+		A6C7DE721DB6729300289F25 /* Side Road Right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE6C1DB6729300289F25 /* Side Road Right.jpg */; };
+		A6C7DE731DB6729300289F25 /* Side Road left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE6D1DB6729300289F25 /* Side Road left.jpg */; };
+		A6C7DE741DB6729300289F25 /* Roundabout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE6E1DB6729300289F25 /* Roundabout.jpg */; };
+		A6C7DE8B1DB677A400289F25 /* taxistand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE751DB677A300289F25 /* taxistand.jpg */; };
+		A6C7DE8C1DB677A400289F25 /* rickshawstand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE761DB677A300289F25 /* rickshawstand.jpg */; };
+		A6C7DE8D1DB677A400289F25 /* resting place.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE771DB677A400289F25 /* resting place.jpg */; };
+		A6C7DE8E1DB677A400289F25 /* reassurancesign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE781DB677A400289F25 /* reassurancesign.jpg */; };
+		A6C7DE8F1DB677A400289F25 /* public telephone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE791DB677A400289F25 /* public telephone.jpg */; };
+		A6C7DE901DB677A400289F25 /* placeidentificationsign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7A1DB677A400289F25 /* placeidentificationsign.jpg */; };
+		A6C7DE911DB677A400289F25 /* petrolpump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7B1DB677A400289F25 /* petrolpump.jpg */; };
+		A6C7DE921DB677A400289F25 /* Parking lot Scooters and motorcycle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7C1DB677A400289F25 /* Parking lot Scooters and motorcycle.jpg */; };
+		A6C7DE931DB677A400289F25 /* Park this Side.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7D1DB677A400289F25 /* Park this Side.jpg */; };
+		A6C7DE941DB677A400289F25 /* Park Both Sides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7E1DB677A400289F25 /* Park Both Sides.jpg */; };
+		A6C7DE951DB677A400289F25 /* nothroughsideroad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE7F1DB677A400289F25 /* nothroughsideroad.jpg */; };
+		A6C7DE961DB677A400289F25 /* nothroughroad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE801DB677A400289F25 /* nothroughroad.jpg */; };
+		A6C7DE971DB677A400289F25 /* light refreshments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE811DB677A400289F25 /* light refreshments.jpg */; };
+		A6C7DE981DB677A400289F25 /* hospital.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE821DB677A400289F25 /* hospital.jpg */; };
+		A6C7DE991DB677A400289F25 /* floodguage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE831DB677A400289F25 /* floodguage.jpg */; };
+		A6C7DE9A1DB677A400289F25 /* firstaidpost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE841DB677A400289F25 /* firstaidpost.jpg */; };
+		A6C7DE9B1DB677A400289F25 /* eatingplace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE851DB677A400289F25 /* eatingplace.jpg */; };
+		A6C7DE9C1DB677A400289F25 /* directionsign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE861DB677A400289F25 /* directionsign.jpg */; };
+		A6C7DE9D1DB677A400289F25 /* destinationsign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE871DB677A400289F25 /* destinationsign.jpg */; };
+		A6C7DE9E1DB677A400289F25 /* cyclestand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE881DB677A400289F25 /* cyclestand.jpg */; };
+		A6C7DE9F1DB677A400289F25 /* autostand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE891DB677A400289F25 /* autostand.jpg */; };
+		A6C7DEA01DB677A400289F25 /* advancedirectionsign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DE8A1DB677A400289F25 /* advancedirectionsign.jpg */; };
+		A6C7DEA41DB6C08800289F25 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA11DB6C08800289F25 /* iTunesArtwork@3x.png */; };
+		A6C7DEA51DB6C08800289F25 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA21DB6C08800289F25 /* iTunesArtwork@2x.png */; };
+		A6C7DEA61DB6C08800289F25 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA31DB6C08800289F25 /* iTunesArtwork@1x.png */; };
+		A6C7DEB81DB6C91600289F25 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA71DB6C91600289F25 /* Icon-App-83.5x83.5@2x.png */; };
+		A6C7DEB91DB6C91600289F25 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA81DB6C91600289F25 /* Icon-App-76x76@3x.png */; };
+		A6C7DEBA1DB6C91600289F25 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEA91DB6C91600289F25 /* Icon-App-76x76@2x.png */; };
+		A6C7DEBB1DB6C91600289F25 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAA1DB6C91600289F25 /* Icon-App-76x76@1x.png */; };
+		A6C7DEBC1DB6C91600289F25 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAB1DB6C91600289F25 /* Icon-App-60x60@3x.png */; };
+		A6C7DEBD1DB6C91600289F25 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAC1DB6C91600289F25 /* Icon-App-60x60@2x.png */; };
+		A6C7DEBE1DB6C91600289F25 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAD1DB6C91600289F25 /* Icon-App-60x60@1x.png */; };
+		A6C7DEBF1DB6C91600289F25 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAE1DB6C91600289F25 /* Icon-App-57x57@1x.png */; };
+		A6C7DEC01DB6C91600289F25 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEAF1DB6C91600289F25 /* Icon-App-40x40@3x.png */; };
+		A6C7DEC11DB6C91600289F25 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB01DB6C91600289F25 /* Icon-App-40x40@2x.png */; };
+		A6C7DEC21DB6C91600289F25 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB11DB6C91600289F25 /* Icon-App-40x40@1x.png */; };
+		A6C7DEC31DB6C91600289F25 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB21DB6C91600289F25 /* Icon-App-29x29@3x.png */; };
+		A6C7DEC41DB6C91600289F25 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB31DB6C91600289F25 /* Icon-App-29x29@2x.png */; };
+		A6C7DEC51DB6C91600289F25 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB41DB6C91600289F25 /* Icon-App-29x29@1x.png */; };
+		A6C7DEC61DB6C91600289F25 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB51DB6C91600289F25 /* Icon-App-20x20@3x.png */; };
+		A6C7DEC71DB6C91600289F25 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB61DB6C91600289F25 /* Icon-App-20x20@2x.png */; };
+		A6C7DEC81DB6C91600289F25 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C7DEB71DB6C91600289F25 /* Icon-App-20x20@1x.png */; };
+		A6F033931DABAD4000C85AE1 /* RoadSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F033921DABAD4000C85AE1 /* RoadSense.swift */; };
+		A6F033951DABC7EA00C85AE1 /* RoadSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F033941DABC7EA00C85AE1 /* RoadSignViewController.swift */; };
+		A6F033971DABE2F000C85AE1 /* MandatorySignTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F033961DABE2F000C85AE1 /* MandatorySignTableViewController.swift */; };
+		A6F033991DABE2FC00C85AE1 /* Cautionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F033981DABE2FC00C85AE1 /* Cautionary.swift */; };
+		A6F0339E1DABE82300C85AE1 /* U- turn prohibited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F0339A1DABE82300C85AE1 /* U- turn prohibited.jpg */; };
+		A6F0339F1DABE82300C85AE1 /* No stopping or standing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F0339B1DABE82300C85AE1 /* No stopping or standing.jpg */; };
+		A6F033A01DABE82300C85AE1 /* No Parking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F0339C1DABE82300C85AE1 /* No Parking.jpg */; };
+		A6F033A11DABE82300C85AE1 /* Stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6F0339D1DABE82300C85AE1 /* Stop.jpg */; };
+		A6F033A31DAC25B600C85AE1 /* TrafficFines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F033A21DAC25B600C85AE1 /* TrafficFines.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62154971DBA06F7004E9A4C /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		A62154981DBA06F7004E9A4C /* Brake Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brake Warning.png"; sourceTree = "<group>"; };
+		A621549D1DBA079C004E9A4C /* 100 Percents 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "100 Percents 2.png"; path = "../100 Percents 2.png"; sourceTree = "<group>"; };
+		A621549F1DBA082F004E9A4C /* Info 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info 2.png"; sourceTree = "<group>"; };
+		A62154A01DBA082F004E9A4C /* Brake Warning 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brake Warning 2.png"; sourceTree = "<group>"; };
+		A6348D2D1DB5734B00F57904 /* Width limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Width limit.jpg"; sourceTree = "<group>"; };
+		A6348D2F1DB5741900F57904 /* One way signs-vehicles prohibited in one direction1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "One way signs-vehicles prohibited in one direction1.jpg"; sourceTree = "<group>"; };
+		A6348D311DB5D19000F57904 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		A6348D331DB5E31000F57904 /* Mandatory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mandatory.png; sourceTree = "<group>"; };
+		A6348D341DB5E31000F57904 /* Informatory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Informatory.png; sourceTree = "<group>"; };
+		A6348D351DB5E31000F57904 /* Cautionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cautionary.png; sourceTree = "<group>"; };
+		A6348D391DB604BA00F57904 /* Mand1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mand1.png; sourceTree = "<group>"; };
+		A6865A521DB7416D002D7AF6 /* Mandatory1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mandatory1.png; sourceTree = "<group>"; };
+		A6865A541DB75528002D7AF6 /* 100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100.png; sourceTree = "<group>"; };
+		A68BE3D21DAEBD72004E0826 /* DetailTrafficFineTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTrafficFineTVC.swift; sourceTree = "<group>"; };
+		A6A6C8F41DA8C674005103B5 /* OnRoadIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnRoadIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A6C8F71DA8C674005103B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A6C8F91DA8C674005103B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6A6C8FC1DA8C674005103B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A6C8FE1DA8C674005103B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A6C9011DA8C674005103B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A6C9031DA8C674005103B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C7DDF31DB623D700289F25 /* One way signs-vehicles prohibited in one direction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "One way signs-vehicles prohibited in one direction.jpg"; sourceTree = "<group>"; };
+		A6C7DDF51DB6240800289F25 /* Straight Prohibited or no entry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Straight Prohibited or no entry.jpg"; sourceTree = "<group>"; };
+		A6C7DDF71DB629AC00289F25 /* Vehicles prohibited in both direction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vehicles prohibited in both direction.jpg"; sourceTree = "<group>"; };
+		A6C7DDF91DB62A0900289F25 /* Right turn prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Right turn prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DDFB1DB62A2B00289F25 /* Left turn prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Left turn prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DDFD1DB62A4700289F25 /* Overtaking prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Overtaking prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DDFF1DB62A6200289F25 /* Pedestrians prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pedestrians prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DE011DB62A8700289F25 /* Axle load limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Axle load limit.jpg"; sourceTree = "<group>"; };
+		A6C7DE031DB62ACC00289F25 /* All vehicles prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "All vehicles prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DE051DB62AF700289F25 /* All vehicles prohibited2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "All vehicles prohibited2.jpg"; sourceTree = "<group>"; };
+		A6C7DE071DB62B1C00289F25 /* Height limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Height limit.jpg"; sourceTree = "<group>"; };
+		A6C7DE091DB62B4300289F25 /* Load limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Load limit.jpg"; sourceTree = "<group>"; };
+		A6C7DE0B1DB62B7E00289F25 /* Horns prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Horns prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DE0D1DB62BDE00289F25 /* giveway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giveway.jpg; sourceTree = "<group>"; };
+		A6C7DE0F1DB62BFA00289F25 /* Length limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Length limit.jpg"; sourceTree = "<group>"; };
+		A6C7DE111DB62C1A00289F25 /* Speed limit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Speed limit.jpg"; sourceTree = "<group>"; };
+		A6C7DE131DB62CAF00289F25 /* Restriction ends sign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Restriction ends sign.jpg"; sourceTree = "<group>"; };
+		A6C7DE151DB62D0100289F25 /* Trucks prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Trucks prohibited.jpg"; sourceTree = "<group>"; };
+		A6C7DE171DB62D2100289F25 /* Compulsory ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE191DB62D4100289F25 /* Compulsory ahead or turn right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory ahead or turn right.jpg"; sourceTree = "<group>"; };
+		A6C7DE1B1DB62D6F00289F25 /* Compulsory ahead or turn left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory ahead or turn left.jpg"; sourceTree = "<group>"; };
+		A6C7DE1D1DB62D8E00289F25 /* Compulsory cycle track.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory cycle track.jpg"; sourceTree = "<group>"; };
+		A6C7DE1F1DB62DAB00289F25 /* Compulsory turn right ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory turn right ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE211DB62DD300289F25 /* Compulsory turn left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory turn left.jpg"; sourceTree = "<group>"; };
+		A6C7DE231DB62DEF00289F25 /* Compulsory keep left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory keep left.jpg"; sourceTree = "<group>"; };
+		A6C7DE251DB62E1E00289F25 /* Compulsory sound horn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Compulsory sound horn.jpg"; sourceTree = "<group>"; };
+		A6C7DE271DB66B5E00289F25 /* T-Intersection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "T-Intersection.jpg"; sourceTree = "<group>"; };
+		A6C7DE291DB66BB100289F25 /* Y-Intersection3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Y-Intersection3.jpg"; sourceTree = "<group>"; };
+		A6C7DE2A1DB66BB100289F25 /* Y-Intersection2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Y-Intersection2.jpg"; sourceTree = "<group>"; };
+		A6C7DE2B1DB66BB100289F25 /* Y-Intersection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Y-Intersection.jpg"; sourceTree = "<group>"; };
+		A6C7DE2F1DB66C0F00289F25 /* Right hand curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Right hand curve.jpg"; sourceTree = "<group>"; };
+		A6C7DE311DB66C7000289F25 /* Left hand curve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Left hand curve.jpg"; sourceTree = "<group>"; };
+		A6C7DE331DB66C9000289F25 /* Left reverse bend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Left reverse bend.jpg"; sourceTree = "<group>"; };
+		A6C7DE351DB66CB800289F25 /* Right reverse bend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Right reverse bend.jpg"; sourceTree = "<group>"; };
+		A6C7DE371DB66CD400289F25 /* Narrow Bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Narrow Bridge.jpg"; sourceTree = "<group>"; };
+		A6C7DE391DB66D1900289F25 /* Road wideness ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Road wideness ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE3B1DB66D3800289F25 /* Narrow road ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Narrow road ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE3D1DB66D5B00289F25 /* Cross Road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cross Road.jpg"; sourceTree = "<group>"; };
+		A6C7DE3F1DB66D8E00289F25 /* Pedestrian Crossing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pedestrian Crossing.jpg"; sourceTree = "<group>"; };
+		A6C7DE411DB66DB900289F25 /* School Ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "School Ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE431DB66DE000289F25 /* Steep ascent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steep ascent.jpg"; sourceTree = "<group>"; };
+		A6C7DE451DB66E0200289F25 /* Steep descent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steep descent.jpg"; sourceTree = "<group>"; };
+		A6C7DE471DB66E2C00289F25 /* Hump or rough road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hump or rough road.jpg"; sourceTree = "<group>"; };
+		A6C7DE491DB66E6B00289F25 /* Dangerous dip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dangerous dip.jpg"; sourceTree = "<group>"; };
+		A6C7DE4B1DB66E8C00289F25 /* Gap in Median.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gap in Median.jpg"; sourceTree = "<group>"; };
+		A6C7DE4D1DB66EC500289F25 /* Falling Rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falling Rocks.jpg"; sourceTree = "<group>"; };
+		A6C7DE4F1DB66FD700289F25 /* 200 meters1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "200 meters1.jpg"; sourceTree = "<group>"; };
+		A6C7DE501DB66FD700289F25 /* 200 meters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "200 meters.jpg"; sourceTree = "<group>"; };
+		A6C7DE511DB66FD700289F25 /* 50-100 meters1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50-100 meters1.jpg"; sourceTree = "<group>"; };
+		A6C7DE521DB66FD700289F25 /* 50-100 meters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50-100 meters.jpg"; sourceTree = "<group>"; };
+		A6C7DE571DB6700800289F25 /* Cattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cattle.jpg; sourceTree = "<group>"; };
+		A6C7DE591DB6702000289F25 /* Ferry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ferry.jpg; sourceTree = "<group>"; };
+		A6C7DE5A1DB6702100289F25 /* Cycle Crossing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cycle Crossing.jpg"; sourceTree = "<group>"; };
+		A6C7DE5D1DB6702F00289F25 /* Left hair pin bend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Left hair pin bend.jpg"; sourceTree = "<group>"; };
+		A6C7DE5F1DB6723700289F25 /* Men at Work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Men at Work.jpg"; sourceTree = "<group>"; };
+		A6C7DE601DB6723700289F25 /* Major road ahead2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Major road ahead2.jpg"; sourceTree = "<group>"; };
+		A6C7DE611DB6723700289F25 /* Major road ahead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Major road ahead.jpg"; sourceTree = "<group>"; };
+		A6C7DE621DB6723700289F25 /* Loose Gravel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Loose Gravel.jpg"; sourceTree = "<group>"; };
+		A6C7DE671DB6727200289F25 /* Right hair pin bend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Right hair pin bend.jpg"; sourceTree = "<group>"; };
+		A6C7DE691DB6729300289F25 /* Staggered Intersection2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Staggered Intersection2.jpg"; sourceTree = "<group>"; };
+		A6C7DE6A1DB6729300289F25 /* Staggered Intersection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Staggered Intersection.jpg"; sourceTree = "<group>"; };
+		A6C7DE6B1DB6729300289F25 /* Slippery Road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Slippery Road.jpg"; sourceTree = "<group>"; };
+		A6C7DE6C1DB6729300289F25 /* Side Road Right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Side Road Right.jpg"; sourceTree = "<group>"; };
+		A6C7DE6D1DB6729300289F25 /* Side Road left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Side Road left.jpg"; sourceTree = "<group>"; };
+		A6C7DE6E1DB6729300289F25 /* Roundabout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Roundabout.jpg; sourceTree = "<group>"; };
+		A6C7DE751DB677A300289F25 /* taxistand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxistand.jpg; sourceTree = "<group>"; };
+		A6C7DE761DB677A300289F25 /* rickshawstand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rickshawstand.jpg; sourceTree = "<group>"; };
+		A6C7DE771DB677A400289F25 /* resting place.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "resting place.jpg"; sourceTree = "<group>"; };
+		A6C7DE781DB677A400289F25 /* reassurancesign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reassurancesign.jpg; sourceTree = "<group>"; };
+		A6C7DE791DB677A400289F25 /* public telephone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "public telephone.jpg"; sourceTree = "<group>"; };
+		A6C7DE7A1DB677A400289F25 /* placeidentificationsign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeidentificationsign.jpg; sourceTree = "<group>"; };
+		A6C7DE7B1DB677A400289F25 /* petrolpump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petrolpump.jpg; sourceTree = "<group>"; };
+		A6C7DE7C1DB677A400289F25 /* Parking lot Scooters and motorcycle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parking lot Scooters and motorcycle.jpg"; sourceTree = "<group>"; };
+		A6C7DE7D1DB677A400289F25 /* Park this Side.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Park this Side.jpg"; sourceTree = "<group>"; };
+		A6C7DE7E1DB677A400289F25 /* Park Both Sides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Park Both Sides.jpg"; sourceTree = "<group>"; };
+		A6C7DE7F1DB677A400289F25 /* nothroughsideroad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nothroughsideroad.jpg; sourceTree = "<group>"; };
+		A6C7DE801DB677A400289F25 /* nothroughroad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nothroughroad.jpg; sourceTree = "<group>"; };
+		A6C7DE811DB677A400289F25 /* light refreshments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light refreshments.jpg"; sourceTree = "<group>"; };
+		A6C7DE821DB677A400289F25 /* hospital.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hospital.jpg; sourceTree = "<group>"; };
+		A6C7DE831DB677A400289F25 /* floodguage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floodguage.jpg; sourceTree = "<group>"; };
+		A6C7DE841DB677A400289F25 /* firstaidpost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstaidpost.jpg; sourceTree = "<group>"; };
+		A6C7DE851DB677A400289F25 /* eatingplace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eatingplace.jpg; sourceTree = "<group>"; };
+		A6C7DE861DB677A400289F25 /* directionsign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = directionsign.jpg; sourceTree = "<group>"; };
+		A6C7DE871DB677A400289F25 /* destinationsign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = destinationsign.jpg; sourceTree = "<group>"; };
+		A6C7DE881DB677A400289F25 /* cyclestand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cyclestand.jpg; sourceTree = "<group>"; };
+		A6C7DE891DB677A400289F25 /* autostand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autostand.jpg; sourceTree = "<group>"; };
+		A6C7DE8A1DB677A400289F25 /* advancedirectionsign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = advancedirectionsign.jpg; sourceTree = "<group>"; };
+		A6C7DEA11DB6C08800289F25 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		A6C7DEA21DB6C08800289F25 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		A6C7DEA31DB6C08800289F25 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		A6C7DEA71DB6C91600289F25 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		A6C7DEA81DB6C91600289F25 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		A6C7DEA91DB6C91600289F25 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		A6C7DEAA1DB6C91600289F25 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		A6C7DEAB1DB6C91600289F25 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		A6C7DEAC1DB6C91600289F25 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		A6C7DEAD1DB6C91600289F25 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		A6C7DEAE1DB6C91600289F25 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		A6C7DEAF1DB6C91600289F25 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		A6C7DEB01DB6C91600289F25 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		A6C7DEB11DB6C91600289F25 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		A6C7DEB21DB6C91600289F25 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		A6C7DEB31DB6C91600289F25 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		A6C7DEB41DB6C91600289F25 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		A6C7DEB51DB6C91600289F25 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		A6C7DEB61DB6C91600289F25 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		A6C7DEB71DB6C91600289F25 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		A6F033921DABAD4000C85AE1 /* RoadSense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadSense.swift; sourceTree = "<group>"; };
+		A6F033941DABC7EA00C85AE1 /* RoadSignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadSignViewController.swift; sourceTree = "<group>"; };
+		A6F033961DABE2F000C85AE1 /* MandatorySignTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandatorySignTableViewController.swift; sourceTree = "<group>"; };
+		A6F033981DABE2FC00C85AE1 /* Cautionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cautionary.swift; sourceTree = "<group>"; };
+		A6F0339A1DABE82300C85AE1 /* U- turn prohibited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "U- turn prohibited.jpg"; sourceTree = "<group>"; };
+		A6F0339B1DABE82300C85AE1 /* No stopping or standing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "No stopping or standing.jpg"; sourceTree = "<group>"; };
+		A6F0339C1DABE82300C85AE1 /* No Parking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "No Parking.jpg"; sourceTree = "<group>"; };
+		A6F0339D1DABE82300C85AE1 /* Stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stop.jpg; sourceTree = "<group>"; };
+		A6F033A21DAC25B600C85AE1 /* TrafficFines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficFines.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A6C8F11DA8C674005103B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A6C8EB1DA8C674005103B5 = {
+			isa = PBXGroup;
+			children = (
+				A6A6C8F61DA8C674005103B5 /* OnRoadIndia */,
+				A6A6C8F51DA8C674005103B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A6C8F51DA8C674005103B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A6C8F41DA8C674005103B5 /* OnRoadIndia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A6C8F61DA8C674005103B5 /* OnRoadIndia */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCD3111DBD56FF0045A39E /* Pics */,
+				A6A6C8F71DA8C674005103B5 /* AppDelegate.swift */,
+				A6A6C8F91DA8C674005103B5 /* ViewController.swift */,
+				A6F033921DABAD4000C85AE1 /* RoadSense.swift */,
+				A6A6C8FB1DA8C674005103B5 /* Main.storyboard */,
+				A6348D311DB5D19000F57904 /* Info.swift */,
+				A68BE3D21DAEBD72004E0826 /* DetailTrafficFineTVC.swift */,
+				A6F033A21DAC25B600C85AE1 /* TrafficFines.swift */,
+				A6F033961DABE2F000C85AE1 /* MandatorySignTableViewController.swift */,
+				A6F033981DABE2FC00C85AE1 /* Cautionary.swift */,
+				A6F033941DABC7EA00C85AE1 /* RoadSignViewController.swift */,
+				A6A6C8FE1DA8C674005103B5 /* Assets.xcassets */,
+				A6A6C9001DA8C674005103B5 /* LaunchScreen.storyboard */,
+				A6A6C9031DA8C674005103B5 /* Info.plist */,
+			);
+			path = OnRoadIndia;
+			sourceTree = "<group>";
+		};
+		A6FCD3111DBD56FF0045A39E /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0339D1DABE82300C85AE1 /* Stop.jpg */,
+				A6F0339A1DABE82300C85AE1 /* U- turn prohibited.jpg */,
+				A6F0339B1DABE82300C85AE1 /* No stopping or standing.jpg */,
+				A6F0339C1DABE82300C85AE1 /* No Parking.jpg */,
+				A6C7DE0F1DB62BFA00289F25 /* Length limit.jpg */,
+				A6C7DE0D1DB62BDE00289F25 /* giveway.jpg */,
+				A6C7DE0B1DB62B7E00289F25 /* Horns prohibited.jpg */,
+				A6C7DE091DB62B4300289F25 /* Load limit.jpg */,
+				A6C7DE071DB62B1C00289F25 /* Height limit.jpg */,
+				A6C7DE051DB62AF700289F25 /* All vehicles prohibited2.jpg */,
+				A6C7DE031DB62ACC00289F25 /* All vehicles prohibited.jpg */,
+				A6C7DE011DB62A8700289F25 /* Axle load limit.jpg */,
+				A6C7DDFF1DB62A6200289F25 /* Pedestrians prohibited.jpg */,
+				A6C7DDFD1DB62A4700289F25 /* Overtaking prohibited.jpg */,
+				A6C7DDFB1DB62A2B00289F25 /* Left turn prohibited.jpg */,
+				A6C7DDF91DB62A0900289F25 /* Right turn prohibited.jpg */,
+				A6C7DDF71DB629AC00289F25 /* Vehicles prohibited in both direction.jpg */,
+				A6C7DDF51DB6240800289F25 /* Straight Prohibited or no entry.jpg */,
+				A6C7DDF31DB623D700289F25 /* One way signs-vehicles prohibited in one direction.jpg */,
+				A6348D391DB604BA00F57904 /* Mand1.png */,
+				A6348D331DB5E31000F57904 /* Mandatory.png */,
+				A6348D341DB5E31000F57904 /* Informatory.png */,
+				A6348D351DB5E31000F57904 /* Cautionary.png */,
+				A6348D2F1DB5741900F57904 /* One way signs-vehicles prohibited in one direction1.jpg */,
+				A6348D2D1DB5734B00F57904 /* Width limit.jpg */,
+				A6C7DE2F1DB66C0F00289F25 /* Right hand curve.jpg */,
+				A6C7DE291DB66BB100289F25 /* Y-Intersection3.jpg */,
+				A6C7DE2A1DB66BB100289F25 /* Y-Intersection2.jpg */,
+				A6C7DE2B1DB66BB100289F25 /* Y-Intersection.jpg */,
+				A6C7DE271DB66B5E00289F25 /* T-Intersection.jpg */,
+				A6C7DE251DB62E1E00289F25 /* Compulsory sound horn.jpg */,
+				A6C7DE231DB62DEF00289F25 /* Compulsory keep left.jpg */,
+				A6C7DE211DB62DD300289F25 /* Compulsory turn left.jpg */,
+				A6C7DE1F1DB62DAB00289F25 /* Compulsory turn right ahead.jpg */,
+				A6C7DE1D1DB62D8E00289F25 /* Compulsory cycle track.jpg */,
+				A6C7DE1B1DB62D6F00289F25 /* Compulsory ahead or turn left.jpg */,
+				A6C7DE191DB62D4100289F25 /* Compulsory ahead or turn right.jpg */,
+				A6C7DE171DB62D2100289F25 /* Compulsory ahead.jpg */,
+				A6C7DE151DB62D0100289F25 /* Trucks prohibited.jpg */,
+				A6C7DE131DB62CAF00289F25 /* Restriction ends sign.jpg */,
+				A6C7DE111DB62C1A00289F25 /* Speed limit.jpg */,
+				A6C7DE4F1DB66FD700289F25 /* 200 meters1.jpg */,
+				A6C7DE501DB66FD700289F25 /* 200 meters.jpg */,
+				A6C7DE511DB66FD700289F25 /* 50-100 meters1.jpg */,
+				A6C7DE521DB66FD700289F25 /* 50-100 meters.jpg */,
+				A6C7DE4D1DB66EC500289F25 /* Falling Rocks.jpg */,
+				A6C7DE4B1DB66E8C00289F25 /* Gap in Median.jpg */,
+				A6C7DE491DB66E6B00289F25 /* Dangerous dip.jpg */,
+				A6C7DE471DB66E2C00289F25 /* Hump or rough road.jpg */,
+				A6C7DE451DB66E0200289F25 /* Steep descent.jpg */,
+				A6C7DE431DB66DE000289F25 /* Steep ascent.jpg */,
+				A6C7DE411DB66DB900289F25 /* School Ahead.jpg */,
+				A6C7DE3F1DB66D8E00289F25 /* Pedestrian Crossing.jpg */,
+				A6C7DE3D1DB66D5B00289F25 /* Cross Road.jpg */,
+				A6C7DE3B1DB66D3800289F25 /* Narrow road ahead.jpg */,
+				A6C7DE391DB66D1900289F25 /* Road wideness ahead.jpg */,
+				A6C7DE371DB66CD400289F25 /* Narrow Bridge.jpg */,
+				A6C7DE351DB66CB800289F25 /* Right reverse bend.jpg */,
+				A6C7DE331DB66C9000289F25 /* Left reverse bend.jpg */,
+				A6C7DE311DB66C7000289F25 /* Left hand curve.jpg */,
+				A6C7DE881DB677A400289F25 /* cyclestand.jpg */,
+				A6C7DE891DB677A400289F25 /* autostand.jpg */,
+				A6C7DE8A1DB677A400289F25 /* advancedirectionsign.jpg */,
+				A6C7DE691DB6729300289F25 /* Staggered Intersection2.jpg */,
+				A6C7DE6A1DB6729300289F25 /* Staggered Intersection.jpg */,
+				A6C7DE6B1DB6729300289F25 /* Slippery Road.jpg */,
+				A6865A521DB7416D002D7AF6 /* Mandatory1.png */,
+				A6C7DE6C1DB6729300289F25 /* Side Road Right.jpg */,
+				A6C7DE6D1DB6729300289F25 /* Side Road left.jpg */,
+				A6C7DE6E1DB6729300289F25 /* Roundabout.jpg */,
+				A6C7DE671DB6727200289F25 /* Right hair pin bend.jpg */,
+				A6C7DE5F1DB6723700289F25 /* Men at Work.jpg */,
+				A6C7DE601DB6723700289F25 /* Major road ahead2.jpg */,
+				A6C7DE611DB6723700289F25 /* Major road ahead.jpg */,
+				A6C7DE621DB6723700289F25 /* Loose Gravel.jpg */,
+				A6C7DE5D1DB6702F00289F25 /* Left hair pin bend.jpg */,
+				A6C7DE591DB6702000289F25 /* Ferry.jpg */,
+				A6C7DE5A1DB6702100289F25 /* Cycle Crossing.jpg */,
+				A6C7DE571DB6700800289F25 /* Cattle.jpg */,
+				A621549F1DBA082F004E9A4C /* Info 2.png */,
+				A62154A01DBA082F004E9A4C /* Brake Warning 2.png */,
+				A6865A541DB75528002D7AF6 /* 100.png */,
+				A6C7DEA11DB6C08800289F25 /* iTunesArtwork@3x.png */,
+				A6C7DEA21DB6C08800289F25 /* iTunesArtwork@2x.png */,
+				A6C7DEA31DB6C08800289F25 /* iTunesArtwork@1x.png */,
+				A6C7DE751DB677A300289F25 /* taxistand.jpg */,
+				A6C7DE761DB677A300289F25 /* rickshawstand.jpg */,
+				A6C7DE771DB677A400289F25 /* resting place.jpg */,
+				A6C7DE781DB677A400289F25 /* reassurancesign.jpg */,
+				A6C7DE791DB677A400289F25 /* public telephone.jpg */,
+				A6C7DE7A1DB677A400289F25 /* placeidentificationsign.jpg */,
+				A6C7DE7B1DB677A400289F25 /* petrolpump.jpg */,
+				A6C7DE7C1DB677A400289F25 /* Parking lot Scooters and motorcycle.jpg */,
+				A6C7DE7D1DB677A400289F25 /* Park this Side.jpg */,
+				A6C7DE7E1DB677A400289F25 /* Park Both Sides.jpg */,
+				A6C7DE7F1DB677A400289F25 /* nothroughsideroad.jpg */,
+				A6C7DE801DB677A400289F25 /* nothroughroad.jpg */,
+				A6C7DE811DB677A400289F25 /* light refreshments.jpg */,
+				A6C7DE821DB677A400289F25 /* hospital.jpg */,
+				A6C7DE831DB677A400289F25 /* floodguage.jpg */,
+				A6C7DE841DB677A400289F25 /* firstaidpost.jpg */,
+				A6C7DE851DB677A400289F25 /* eatingplace.jpg */,
+				A6C7DE861DB677A400289F25 /* directionsign.jpg */,
+				A6C7DE871DB677A400289F25 /* destinationsign.jpg */,
+				A62154971DBA06F7004E9A4C /* Info.png */,
+				A62154981DBA06F7004E9A4C /* Brake Warning.png */,
+				A6C7DEA71DB6C91600289F25 /* Icon-App-83.5x83.5@2x.png */,
+				A6C7DEA81DB6C91600289F25 /* Icon-App-76x76@3x.png */,
+				A6C7DEA91DB6C91600289F25 /* Icon-App-76x76@2x.png */,
+				A6C7DEAA1DB6C91600289F25 /* Icon-App-76x76@1x.png */,
+				A621549D1DBA079C004E9A4C /* 100 Percents 2.png */,
+				A6C7DEAB1DB6C91600289F25 /* Icon-App-60x60@3x.png */,
+				A6C7DEAC1DB6C91600289F25 /* Icon-App-60x60@2x.png */,
+				A6C7DEAD1DB6C91600289F25 /* Icon-App-60x60@1x.png */,
+				A6C7DEAE1DB6C91600289F25 /* Icon-App-57x57@1x.png */,
+				A6C7DEAF1DB6C91600289F25 /* Icon-App-40x40@3x.png */,
+				A6C7DEB01DB6C91600289F25 /* Icon-App-40x40@2x.png */,
+				A6C7DEB11DB6C91600289F25 /* Icon-App-40x40@1x.png */,
+				A6C7DEB21DB6C91600289F25 /* Icon-App-29x29@3x.png */,
+				A6C7DEB31DB6C91600289F25 /* Icon-App-29x29@2x.png */,
+				A6C7DEB41DB6C91600289F25 /* Icon-App-29x29@1x.png */,
+				A6C7DEB51DB6C91600289F25 /* Icon-App-20x20@3x.png */,
+				A6C7DEB61DB6C91600289F25 /* Icon-App-20x20@2x.png */,
+				A6C7DEB71DB6C91600289F25 /* Icon-App-20x20@1x.png */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A6C8F31DA8C674005103B5 /* OnRoadIndia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A6C9061DA8C674005103B5 /* Build configuration list for PBXNativeTarget "OnRoadIndia" */;
+			buildPhases = (
+				A6A6C8F01DA8C674005103B5 /* Sources */,
+				A6A6C8F11DA8C674005103B5 /* Frameworks */,
+				A6A6C8F21DA8C674005103B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnRoadIndia;
+			productName = OnRoadIndia;
+			productReference = A6A6C8F41DA8C674005103B5 /* OnRoadIndia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A6C8EC1DA8C674005103B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RVaddella;
+				TargetAttributes = {
+					A6A6C8F31DA8C674005103B5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2FXNQM2V2T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A6A6C8EF1DA8C674005103B5 /* Build configuration list for PBXProject "OnRoadIndia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A6C8EB1DA8C674005103B5;
+			productRefGroup = A6A6C8F51DA8C674005103B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A6C8F31DA8C674005103B5 /* OnRoadIndia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A6C8F21DA8C674005103B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C7DE701DB6729300289F25 /* Staggered Intersection.jpg in Resources */,
+				A6C7DE681DB6727200289F25 /* Right hair pin bend.jpg in Resources */,
+				A6C7DE961DB677A400289F25 /* nothroughroad.jpg in Resources */,
+				A6C7DE261DB62E1E00289F25 /* Compulsory sound horn.jpg in Resources */,
+				A6C7DE921DB677A400289F25 /* Parking lot Scooters and motorcycle.jpg in Resources */,
+				A6C7DE361DB66CB800289F25 /* Right reverse bend.jpg in Resources */,
+				A6C7DE6F1DB6729300289F25 /* Staggered Intersection2.jpg in Resources */,
+				A62154A11DBA082F004E9A4C /* Info 2.png in Resources */,
+				A6C7DE281DB66B5E00289F25 /* T-Intersection.jpg in Resources */,
+				A6C7DE901DB677A400289F25 /* placeidentificationsign.jpg in Resources */,
+				A6C7DE5C1DB6702100289F25 /* Cycle Crossing.jpg in Resources */,
+				A6C7DE101DB62BFA00289F25 /* Length limit.jpg in Resources */,
+				A621549B1DBA06F7004E9A4C /* Brake Warning.png in Resources */,
+				A6348D371DB5E31000F57904 /* Informatory.png in Resources */,
+				A6C7DE531DB66FD700289F25 /* 200 meters1.jpg in Resources */,
+				A6C7DE561DB66FD700289F25 /* 50-100 meters.jpg in Resources */,
+				A6C7DE341DB66C9000289F25 /* Left reverse bend.jpg in Resources */,
+				A6C7DEC31DB6C91600289F25 /* Icon-App-29x29@3x.png in Resources */,
+				A6C7DEC21DB6C91600289F25 /* Icon-App-40x40@1x.png in Resources */,
+				A621549E1DBA079C004E9A4C /* 100 Percents 2.png in Resources */,
+				A6C7DEC51DB6C91600289F25 /* Icon-App-29x29@1x.png in Resources */,
+				A6C7DE8B1DB677A400289F25 /* taxistand.jpg in Resources */,
+				A6C7DE4A1DB66E6B00289F25 /* Dangerous dip.jpg in Resources */,
+				A6C7DE381DB66CD400289F25 /* Narrow Bridge.jpg in Resources */,
+				A6C7DE971DB677A400289F25 /* light refreshments.jpg in Resources */,
+				A6C7DE241DB62DEF00289F25 /* Compulsory keep left.jpg in Resources */,
+				A6F033A11DABE82300C85AE1 /* Stop.jpg in Resources */,
+				A6C7DDF41DB623D700289F25 /* One way signs-vehicles prohibited in one direction.jpg in Resources */,
+				A6A6C9021DA8C674005103B5 /* LaunchScreen.storyboard in Resources */,
+				A6C7DDF61DB6240800289F25 /* Straight Prohibited or no entry.jpg in Resources */,
+				A6C7DE2C1DB66BB100289F25 /* Y-Intersection3.jpg in Resources */,
+				A6C7DE0C1DB62B7E00289F25 /* Horns prohibited.jpg in Resources */,
+				A6C7DEC71DB6C91600289F25 /* Icon-App-20x20@2x.png in Resources */,
+				A6A6C8FF1DA8C674005103B5 /* Assets.xcassets in Resources */,
+				A6C7DE321DB66C7000289F25 /* Left hand curve.jpg in Resources */,
+				A6C7DE221DB62DD300289F25 /* Compulsory turn left.jpg in Resources */,
+				A6C7DE731DB6729300289F25 /* Side Road left.jpg in Resources */,
+				A6C7DE9B1DB677A400289F25 /* eatingplace.jpg in Resources */,
+				A6C7DDFE1DB62A4700289F25 /* Overtaking prohibited.jpg in Resources */,
+				A6C7DEB91DB6C91600289F25 /* Icon-App-76x76@3x.png in Resources */,
+				A6C7DE541DB66FD700289F25 /* 200 meters.jpg in Resources */,
+				A6C7DE581DB6700800289F25 /* Cattle.jpg in Resources */,
+				A6C7DE8E1DB677A400289F25 /* reassurancesign.jpg in Resources */,
+				A6C7DE8D1DB677A400289F25 /* resting place.jpg in Resources */,
+				A6C7DE161DB62D0100289F25 /* Trucks prohibited.jpg in Resources */,
+				A6C7DE991DB677A400289F25 /* floodguage.jpg in Resources */,
+				A6C7DEC01DB6C91600289F25 /* Icon-App-40x40@3x.png in Resources */,
+				A6C7DE121DB62C1A00289F25 /* Speed limit.jpg in Resources */,
+				A6C7DE8F1DB677A400289F25 /* public telephone.jpg in Resources */,
+				A6C7DEC61DB6C91600289F25 /* Icon-App-20x20@3x.png in Resources */,
+				A6C7DEBF1DB6C91600289F25 /* Icon-App-57x57@1x.png in Resources */,
+				A6C7DE551DB66FD700289F25 /* 50-100 meters1.jpg in Resources */,
+				A6C7DE651DB6723700289F25 /* Major road ahead.jpg in Resources */,
+				A6C7DE4C1DB66E8C00289F25 /* Gap in Median.jpg in Resources */,
+				A6C7DEC41DB6C91600289F25 /* Icon-App-29x29@2x.png in Resources */,
+				A6C7DE081DB62B1C00289F25 /* Height limit.jpg in Resources */,
+				A6C7DE301DB66C0F00289F25 /* Right hand curve.jpg in Resources */,
+				A6C7DE4E1DB66EC500289F25 /* Falling Rocks.jpg in Resources */,
+				A6C7DE1E1DB62D8E00289F25 /* Compulsory cycle track.jpg in Resources */,
+				A6348D381DB5E31000F57904 /* Cautionary.png in Resources */,
+				A6C7DE9A1DB677A400289F25 /* firstaidpost.jpg in Resources */,
+				A6C7DE421DB66DB900289F25 /* School Ahead.jpg in Resources */,
+				A6C7DEBE1DB6C91600289F25 /* Icon-App-60x60@1x.png in Resources */,
+				A6C7DEC11DB6C91600289F25 /* Icon-App-40x40@2x.png in Resources */,
+				A6C7DEBD1DB6C91600289F25 /* Icon-App-60x60@2x.png in Resources */,
+				A6C7DE941DB677A400289F25 /* Park Both Sides.jpg in Resources */,
+				A6865A551DB75528002D7AF6 /* 100.png in Resources */,
+				A6C7DE9D1DB677A400289F25 /* destinationsign.jpg in Resources */,
+				A6C7DE021DB62A8700289F25 /* Axle load limit.jpg in Resources */,
+				A6C7DE401DB66D8E00289F25 /* Pedestrian Crossing.jpg in Resources */,
+				A6F033A01DABE82300C85AE1 /* No Parking.jpg in Resources */,
+				A6C7DEA51DB6C08800289F25 /* iTunesArtwork@2x.png in Resources */,
+				A6C7DEBB1DB6C91600289F25 /* Icon-App-76x76@1x.png in Resources */,
+				A6C7DE1C1DB62D6F00289F25 /* Compulsory ahead or turn left.jpg in Resources */,
+				A6C7DE201DB62DAB00289F25 /* Compulsory turn right ahead.jpg in Resources */,
+				A6C7DE001DB62A6200289F25 /* Pedestrians prohibited.jpg in Resources */,
+				A6C7DE141DB62CAF00289F25 /* Restriction ends sign.jpg in Resources */,
+				A6C7DE2D1DB66BB100289F25 /* Y-Intersection2.jpg in Resources */,
+				A6C7DEA41DB6C08800289F25 /* iTunesArtwork@3x.png in Resources */,
+				A6F0339E1DABE82300C85AE1 /* U- turn prohibited.jpg in Resources */,
+				A6C7DE041DB62ACC00289F25 /* All vehicles prohibited.jpg in Resources */,
+				A6C7DE5E1DB6702F00289F25 /* Left hair pin bend.jpg in Resources */,
+				A6C7DE181DB62D2100289F25 /* Compulsory ahead.jpg in Resources */,
+				A6348D361DB5E31000F57904 /* Mandatory.png in Resources */,
+				A6C7DE3A1DB66D1900289F25 /* Road wideness ahead.jpg in Resources */,
+				A6C7DE8C1DB677A400289F25 /* rickshawstand.jpg in Resources */,
+				A6C7DEA01DB677A400289F25 /* advancedirectionsign.jpg in Resources */,
+				A6C7DDF81DB629AC00289F25 /* Vehicles prohibited in both direction.jpg in Resources */,
+				A6C7DDFC1DB62A2B00289F25 /* Left turn prohibited.jpg in Resources */,
+				A6C7DE9E1DB677A400289F25 /* cyclestand.jpg in Resources */,
+				A6865A531DB7416D002D7AF6 /* Mandatory1.png in Resources */,
+				A6C7DEBA1DB6C91600289F25 /* Icon-App-76x76@2x.png in Resources */,
+				A6C7DE631DB6723700289F25 /* Men at Work.jpg in Resources */,
+				A6C7DE741DB6729300289F25 /* Roundabout.jpg in Resources */,
+				A6C7DE981DB677A400289F25 /* hospital.jpg in Resources */,
+				A6C7DE641DB6723700289F25 /* Major road ahead2.jpg in Resources */,
+				A6C7DEA61DB6C08800289F25 /* iTunesArtwork@1x.png in Resources */,
+				A6C7DE1A1DB62D4100289F25 /* Compulsory ahead or turn right.jpg in Resources */,
+				A6348D2E1DB5734B00F57904 /* Width limit.jpg in Resources */,
+				A6C7DE461DB66E0200289F25 /* Steep descent.jpg in Resources */,
+				A6C7DE721DB6729300289F25 /* Side Road Right.jpg in Resources */,
+				A62154A21DBA082F004E9A4C /* Brake Warning 2.png in Resources */,
+				A6C7DE911DB677A400289F25 /* petrolpump.jpg in Resources */,
+				A6C7DE5B1DB6702100289F25 /* Ferry.jpg in Resources */,
+				A6C7DE481DB66E2C00289F25 /* Hump or rough road.jpg in Resources */,
+				A6C7DE931DB677A400289F25 /* Park this Side.jpg in Resources */,
+				A6C7DEB81DB6C91600289F25 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				A6C7DE0A1DB62B4300289F25 /* Load limit.jpg in Resources */,
+				A6C7DE0E1DB62BDE00289F25 /* giveway.jpg in Resources */,
+				A6C7DE9C1DB677A400289F25 /* directionsign.jpg in Resources */,
+				A6C7DE9F1DB677A400289F25 /* autostand.jpg in Resources */,
+				A6C7DDFA1DB62A0900289F25 /* Right turn prohibited.jpg in Resources */,
+				A6C7DE061DB62AF700289F25 /* All vehicles prohibited2.jpg in Resources */,
+				A6C7DE3E1DB66D5B00289F25 /* Cross Road.jpg in Resources */,
+				A6C7DE3C1DB66D3800289F25 /* Narrow road ahead.jpg in Resources */,
+				A6348D301DB5741900F57904 /* One way signs-vehicles prohibited in one direction1.jpg in Resources */,
+				A6C7DEBC1DB6C91600289F25 /* Icon-App-60x60@3x.png in Resources */,
+				A6F0339F1DABE82300C85AE1 /* No stopping or standing.jpg in Resources */,
+				A6C7DE661DB6723700289F25 /* Loose Gravel.jpg in Resources */,
+				A6C7DEC81DB6C91600289F25 /* Icon-App-20x20@1x.png in Resources */,
+				A6C7DE711DB6729300289F25 /* Slippery Road.jpg in Resources */,
+				A621549A1DBA06F7004E9A4C /* Info.png in Resources */,
+				A6C7DE441DB66DE000289F25 /* Steep ascent.jpg in Resources */,
+				A6A6C8FD1DA8C674005103B5 /* Main.storyboard in Resources */,
+				A6348D3A1DB604BB00F57904 /* Mand1.png in Resources */,
+				A6C7DE2E1DB66BB100289F25 /* Y-Intersection.jpg in Resources */,
+				A6C7DE951DB677A400289F25 /* nothroughsideroad.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A6C8F01DA8C674005103B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F033A31DAC25B600C85AE1 /* TrafficFines.swift in Sources */,
+				A6F033931DABAD4000C85AE1 /* RoadSense.swift in Sources */,
+				A6F033951DABC7EA00C85AE1 /* RoadSignViewController.swift in Sources */,
+				A6348D321DB5D19000F57904 /* Info.swift in Sources */,
+				A6F033991DABE2FC00C85AE1 /* Cautionary.swift in Sources */,
+				A6A6C8FA1DA8C674005103B5 /* ViewController.swift in Sources */,
+				A6A6C8F81DA8C674005103B5 /* AppDelegate.swift in Sources */,
+				A68BE3D31DAEBD72004E0826 /* DetailTrafficFineTVC.swift in Sources */,
+				A6F033971DABE2F000C85AE1 /* MandatorySignTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A6C8FB1DA8C674005103B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A6C8FC1DA8C674005103B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A6C9001DA8C674005103B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A6C9011DA8C674005103B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A6C9041DA8C674005103B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A6C9051DA8C674005103B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A6C9071DA8C674005103B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2FXNQM2V2T;
+				INFOPLIST_FILE = OnRoadIndia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RVaddella.OnRoadIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6A6C9081DA8C674005103B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2FXNQM2V2T;
+				INFOPLIST_FILE = OnRoadIndia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RVaddella.OnRoadIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A6C8EF1DA8C674005103B5 /* Build configuration list for PBXProject "OnRoadIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A6C9041DA8C674005103B5 /* Debug */,
+				A6A6C9051DA8C674005103B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A6C9061DA8C674005103B5 /* Build configuration list for PBXNativeTarget "OnRoadIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A6C9071DA8C674005103B5 /* Debug */,
+				A6A6C9081DA8C674005103B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A6C8EC1DA8C674005103B5 /* Project object */;
+}
