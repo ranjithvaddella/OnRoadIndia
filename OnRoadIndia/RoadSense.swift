@@ -51,7 +51,7 @@ class RoadSense : UITableViewController {
         cell?.textLabel?.numberOfLines = 0
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 40
-        cell?.textLabel?.font = UIFont (name: "Avenir", size: 22)
+        cell?.textLabel?.font = UIFont (name: "Baskerville", size: 18)
         return cell!
     }
     

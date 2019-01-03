@@ -44,8 +44,9 @@ class TrafficFines: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Basic", for: indexPath)
         cell.textLabel?.text = data[indexPath.row]
-        cell.textLabel?.font = UIFont(name: "Times", size: 20)
-        
+//        cell.textLabel?.font = UIFont(name: "Times", size: 20)
+        cell.textLabel?.font = UIFont (name: "Baskerville", size: 18)
+
         return cell
     }
 
