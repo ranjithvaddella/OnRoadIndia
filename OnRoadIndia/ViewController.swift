@@ -39,22 +39,35 @@ class ViewController: UIViewController, GADBannerViewDelegate, GADInterstitialDe
        
     }
     
+    var adCount = 1
     
     @IBAction func TrafficFine(_ sender: UIButton) {
-        interstitial.delegate = self
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: self)
+        if adCount == 3 {
+            interstitial.delegate = self
+            if interstitial.isReady {
+                interstitial.present(fromRootViewController: self)
+            } else {
+                print("Ad wasn't ready")
+            }
+            adCount = 1
         } else {
-            print("Ad wasn't ready")
+            adCount = adCount + 1
         }
+        
+        
     }
     
     @IBAction func RoadSigns(_ sender: UIButton) {
-        interstitial.delegate = self
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: self)
+        if adCount == 3 {
+            interstitial.delegate = self
+            if interstitial.isReady {
+                interstitial.present(fromRootViewController: self)
+            } else {
+                print("Ad wasn't ready")
+            }
+            adCount = 1
         } else {
-            print("Ad wasn't ready")
+            adCount = adCount + 1
         }
     }
     
