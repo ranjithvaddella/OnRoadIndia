@@ -118,7 +118,7 @@ class ViewController: UIViewController, GADBannerViewDelegate, GADInterstitialDe
     func createAndLoadInterstitial() -> GADInterstitial {
         let interstitial = GADInterstitial(adUnitID: "ca-app-pub-2692912423432575/9205792059")
         interstitial.delegate = self
-        interstitial.load(GADRequest())
+        interstitial.load(GADRequest()) 
         return interstitial
     }
     
